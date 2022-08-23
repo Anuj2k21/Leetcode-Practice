@@ -3,7 +3,7 @@ var combinationSum4 = function(nums, target) {
     const dp_arr = Array(target+1).fill(0)
     // Set default
     dp_arr[0] = 1
-    // Loop until we hit target
+
     for(let i = 0; i <= target;i++) {
         // Loop through all possible nums
         for(let j = 0; j < nums.length; j++) {
